@@ -1,0 +1,3 @@
+[submodule "user_docs_content"]
+	path = user_docs_content
+	url = https://github.com/VolatusSoftware/user_docs_content.git

@@ -1,0 +1,16 @@
+site_name: Volatus User Guide
+docs_dir: 'src'
+site_dir: 'docs'
+strict: true
+theme:
+  name: material
+  logo: img/volatus.png
+  favicon: img/volatus.png
+extra_css:
+  - volatus.css
+plugins:
+  - monorepo
+
+nav:
+  - Overview: 'index.md'
+  - Volatus: '!include user_docs_content/mkdocs.yml'
